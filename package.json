@@ -1,0 +1,29 @@
+{
+  "name": "stunning-octo-chainsaw-jest-typesafe-i18n-test",
+  "version": "1.0.0",
+  "description": "Test an import problem with Jest and typesafe-i18n https://github.com/ivanhofer/typesafe-i18n/issues/140",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx typesafe-i18n --no-watch && jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phil714/stunning-octo-chainsaw-jest-typesafe-i18n-test.git"
+  },
+  "author": "Philippe Deschesnes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phil714/stunning-octo-chainsaw-jest-typesafe-i18n-test/issues"
+  },
+  "homepage": "https://github.com/phil714/stunning-octo-chainsaw-jest-typesafe-i18n-test#readme",
+  "dependencies": {
+    "jest": "^27.4.5",
+    "typesafe-i18n": "^2.56.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^17.0.0",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
